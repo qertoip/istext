@@ -1,0 +1,7 @@
+pom.xml
+*jar
+lib
+classes
+istext.iml
+istext.ipr
+istext.iws
