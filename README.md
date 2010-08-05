@@ -20,9 +20,9 @@ Like any other Clojure library, download and put istext.jar in your CLASSPATH. T
 
     (use 'istext)
 
-    (text-file? "path\\to\\the\\file")   ; true | false
+    (text-file? "path/to/the/file")   ; true | false
 
-    (bin-file? "path\\to\\the\\file")    ; true | false
+    (bin-file? "path/to/the/file")    ; true | false
 
 ## Usage from Java
 

@@ -15,7 +15,7 @@
 (defn- majority-printable? [bytes]
   (let [printable_count (count (filter #(> % 31) bytes))
         all_count       (count bytes)
-        printable_ratio (/ printable_count all_count)]
+        printable_ratio (/ printable_count (max all_count 1))]
     (> printable_ratio 0.85)))
 
 ; ===================================
