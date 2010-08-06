@@ -50,6 +50,13 @@ The 'standalone' version is self contained. You don't need any other dependencie
 
 Download jar and put it on your CLASSPATH.
 
+## Development
+
+istext is built with Leiningen:
+    lein deps
+    lein test
+    lein uberjar
+
 ## License
 
 Copyright (C) 2010 Piotr 'Qertoip' Włodarek. Distributed under the MIT License.
